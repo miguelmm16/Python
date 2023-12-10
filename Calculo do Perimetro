@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNtv14QyGsCozM73myz2ZQj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/miguelmm16/Python/blob/main/Calculo%20do%20Perimetro\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LgeyUL-GfcFl",
+        "outputId": "56b70292-ddb6-4745-c46d-75189a420473"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o comprimento do lado A: 15\n",
+            "Digite o comprimento do lado B: 17\n",
+            "O perimetro do retangulo e: 64.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "def calcular_perimetro_retangulo(a, b):\n",
+        "    perimetro = 2 * a + 2 * b\n",
+        "    return perimetro\n",
+        "\n",
+        "comprimento_lado_a = float(input(\"Digite o comprimento do lado A: \"))\n",
+        "comprimento_lado_b = float(input(\"Digite o comprimento do lado B: \"))\n",
+        "\n",
+        "resultado_perimetro = calcular_perimetro_retangulo(comprimento_lado_a, comprimento_lado_b)\n",
+        "print(f\"O perimetro do retangulo e: {resultado_perimetro}\")"
+      ]
+    }
+  ]
+}
